@@ -45,10 +45,6 @@ Avaliar a capacidade de:
 
 ## ⚙️ Estrutura do Projeto
 
-------------------------------------------------------------------------
-
-## 📁 Estrutura Final de Pastas
-
 # 🧪 Prova Técnica Tagplus - QA (Parte 2 - Front-End)
 
 Este repositório contém a segunda parte da prova técnica para a vaga de **Analista de QA Júnior**, referente à automação de **testes de interface (E2E)** utilizando **Playwright** no site [SauceDemo](https://www.saucedemo.com/).
@@ -97,7 +93,6 @@ Avaliar a capacidade de:
 ## ⚙️ Estrutura do Projeto
 
 ```plaintext
-.
 📂 qa-junior-playwright-frontend
 ├── 📁 tests
 │ └── front.spec.ts # Testes E2E do SauceDemo
@@ -179,11 +174,13 @@ A configuração executa os testes em múltiplos navegadores e dispositivos:
 
 🧾 Scripts Disponíveis
 
+```plaintext
 "scripts": {
   "test:ui": "playwright test tests/ui",
   "test:uije": "playwright test tests/ui --reporter=junit",
   "test:api": "playwright test tests/api"
 }
+```
 
 ------------------------------------------------------------------------
 
@@ -195,7 +192,9 @@ A configuração executa os testes em múltiplos navegadores e dispositivos:
 
 💡 O comando principal para execução é:
 
+```bash
 -   npx playwright test
+```
 
 ✅ Boas Práticas Aplicadas
 
@@ -221,11 +220,11 @@ Rodrigo Barbosa
 
 📅 Prazo e Entrega
 
-Parte: 2 (Front-End - SauceDemo)
+-   3 dias corrigidos depois da entrega.
+-   Parte: 2 (Front-End - SauceDemo).
+-   Repositório: [qa-junior-playwright-frontend](https://github.com/r04r970/qa-junior-playwright-frontend.git).
 
-Repositório: [qa-junior-playwright-frontend](https://github.com/r04r970/qa-junior-playwright-frontend.git)
-
-Execução: npx playwright test
+Execução: ```bash npx playwright test ```
 
 ⚠️ Importante
 
