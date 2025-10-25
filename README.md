@@ -140,6 +140,7 @@ npm install
 ------------------------------------------------------------------------
 
 🧩 Configurações Principais
+
 🎬 Gravação de Vídeos
 
 Os vídeos de execução são gravados automaticamente e organizados após o término dos testes:
