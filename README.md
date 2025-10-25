@@ -121,20 +121,22 @@ Avaliar a capacidade de:
 npm install
 ```
 
-
 ▶️ Como Executar os Testes
 
-
 -    Executar todos os testes E2E
+  ```bash
   npx playwright test
 
 -    Executar com visualização do navegador
+  ```bash
   npx playwright test --headed
 
 -    Executar apenas o conjunto de testes front-end
+  ```bash
   npx playwright test tests/front.spec.ts
 
 -    Exibir relatório HTML após execução
+  ```bash
   npx playwright show-report
 
 ------------------------------------------------------------------------
