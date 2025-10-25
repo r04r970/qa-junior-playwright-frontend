@@ -1,50 +1,5 @@
 # 🧪 Prova Técnica Tagplus - QA (Parte 2 - Front-End)
 
-Este repositório contém a segunda parte da prova técnica para a vaga de **Analista de QA Júnior**, referente à automação de **testes de interface (E2E)** utilizando **Playwright** no site [SauceDemo](https://www.saucedemo.com/).
-
----
-
-## 🎯 Objetivo
-
-Avaliar a capacidade de:
-- Criar testes automatizados de interface simulando ações reais de um usuário.
-- Escrever código limpo, organizado e com boas práticas.
-- Validar fluxos críticos de login, carrinho e finalização de compra.
-- Entregar uma automação funcional, legível e bem estruturada.
-
----
-
-## 🧩 Cenários Automatizados
-
-### 🔐 Login
-- Login com sucesso utilizando credenciais válidas.  
-- Tentativas de login com usuário e senha incorretos.  
-- Validação de mensagens de erro para campos obrigatórios vazios.  
-
-### 🛒 Carrinho de Compras
-- Adicionar múltiplos produtos ao carrinho.  
-- Remover produtos (fixos e aleatórios) do carrinho.  
-- Validar a quantidade correta de itens restantes após remoção.  
-
-### 💳 Finalização de Compra
-- Verificação de mensagens de erro em campos obrigatórios (nome, sobrenome, CEP).  
-- Finalização completa da compra com múltiplos produtos.  
-- Validação da mensagem de confirmação:  
-  > “Thank you for your order!”
-
----
-
-## 🧠 Tecnologias Utilizadas
-
-- [Node.js](https://nodejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Playwright](https://playwright.dev/)
-- [CSS Escape](https://www.npmjs.com/package/css.escape)
-
----
-
-## ⚙️ Estrutura do Projeto
-
 # 🧪 Prova Técnica Tagplus - QA (Parte 2 - Front-End)
 
 Este repositório contém a segunda parte da prova técnica para a vaga de **Analista de QA Júnior**, referente à automação de **testes de interface (E2E)** utilizando **Playwright** no site [SauceDemo](https://www.saucedemo.com/).
