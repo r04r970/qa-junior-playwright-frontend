@@ -125,16 +125,16 @@ npm install
 ▶️ Como Executar os Testes
 
 
-🔹 Executar todos os testes E2E
+-    Executar todos os testes E2E
   npx playwright test
 
-🔹 Executar com visualização do navegador
+-    Executar com visualização do navegador
   npx playwright test --headed
 
-🔹 Executar apenas o conjunto de testes front-end
+-    Executar apenas o conjunto de testes front-end
   npx playwright test tests/front.spec.ts
 
-🔹 Exibir relatório HTML após execução
+-    Exibir relatório HTML após execução
   npx playwright show-report
 
 ------------------------------------------------------------------------
@@ -144,9 +144,8 @@ npm install
 
 Os vídeos de execução são gravados automaticamente e organizados após o término dos testes:
 
-🔹test-results/videos/success → vídeos de testes aprovados
-
-🔹test-results/videos/error → vídeos de testes com falha
+-   test-results/videos/success → vídeos de testes aprovados
+-   test-results/videos/error → vídeos de testes com falha
 
 O script move-videos.ts realiza essa movimentação automaticamente após o término da suíte de testes.
 
@@ -154,23 +153,17 @@ O script move-videos.ts realiza essa movimentação automaticamente após o tér
 
 A configuração executa os testes em múltiplos navegadores e dispositivos:
 
-🔹Google Chrome
-
-🔹Microsoft Edge
-
-🔹Firefox
-
-🔹Mobile Chrome (Pixel 5)
-
-🔹Mobile Safari (iPhone 12)
+-   Google Chrome
+-   Microsoft Edge
+-   Firefox
+-   Mobile Chrome (Pixel 5)
+-   Mobile Safari (iPhone 12)
 
 ⚡ Reporter e Trace
 
-🔹eporter: HTML
-
-🔹Trace: on-first-retry
-
-🔹Vídeos: gravados em 1280x720
+-   eporter: HTML
+-   Trace: on-first-retry
+-   Vídeos: gravados em 1280x720
 
 ------------------------------------------------------------------------
 
@@ -192,29 +185,23 @@ A configuração executa os testes em múltiplos navegadores e dispositivos:
 
 💡 O comando principal para execução é:
 
-🔹npx playwright test
+-   npx playwright test
 
 ✅ Boas Práticas Aplicadas
 
-🔹Reutilização de código: funções modulares como realizarLogin, adicionarProduto e removerProduto.
-
-🔹Código limpo e legível, com comentários explicativos e consistência de nomenclatura.
-
-🔹Validações robustas de mensagens, elementos e quantidade de produtos.
-
-🔹Tratamento de exceções, incluindo test.skip automático quando o site estiver indisponível.
-
-🔹Execução paralela e cross-browser configurada no playwright.config.ts.
+-   Reutilização de código: funções modulares como realizarLogin, adicionarProduto e removerProduto.
+-   Código limpo e legível, com comentários explicativos e consistência de nomenclatura.
+-   Validações robustas de mensagens, elementos e quantidade de produtos.
+-   Tratamento de exceções, incluindo test.skip automático quando o site estiver indisponível.
+-   Execução paralela e cross-browser configurada no playwright.config.ts.
 
 📸 Relatórios e Evidências
 
 Durante a execução, o Playwright gera:
 
-🔹Vídeos da execução dos testes (test-results/videos).
-
-🔹Relatório HTML interativo (executar com npx playwright show-report).
-
-🔹Logs e traces para depuração detalhada de falhas.
+-   Vídeos da execução dos testes (test-results/videos).
+-   Relatório HTML interativo (executar com npx playwright show-report).
+-   Logs e traces para depuração detalhada de falhas.
 
 👤 Autor
 
