@@ -143,9 +143,9 @@ npx playwright show-report
 
 ------------------------------------------------------------------------
 
-### 🧩 Configurações Principais
+## 🧩 Configurações Principais
 
-🎬 Gravação de Vídeos
+### 🎬 Gravação de Vídeos
 
 Os vídeos de execução são gravados automaticamente e organizados após o término dos testes:
 
@@ -154,7 +154,7 @@ Os vídeos de execução são gravados automaticamente e organizados após o té
 
 O script move-videos.ts realiza essa movimentação automaticamente após o término da suíte de testes.
 
-🌍 Navegadores Testados
+### 🌍 Navegadores Testados
 
 A configuração executa os testes em múltiplos navegadores e dispositivos:
 
@@ -164,7 +164,7 @@ A configuração executa os testes em múltiplos navegadores e dispositivos:
 -   Mobile Chrome (Pixel 5)
 -   Mobile Safari (iPhone 12)
 
-⚡ Reporter e Trace
+### ⚡ Reporter e Trace
 
 -   eporter: HTML
 -   Trace: on-first-retry
@@ -172,7 +172,7 @@ A configuração executa os testes em múltiplos navegadores e dispositivos:
 
 ------------------------------------------------------------------------
 
-🧾 Scripts Disponíveis
+## 🧾 Scripts Disponíveis
 
 ```plaintext
 "scripts": {
