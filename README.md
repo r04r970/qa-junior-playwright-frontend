@@ -96,6 +96,8 @@ Avaliar a capacidade de:
 
 ## ⚙️ Estrutura do Projeto
 
+```plaintext
+.
 📂 qa-junior-playwright-frontend
 ├── 📁 tests
 │ └── front.spec.ts # Testes E2E do SauceDemo
@@ -104,6 +106,7 @@ Avaliar a capacidade de:
 ├── 📄 tsconfig.json # Configuração do TypeScript
 ├── 📄 package.json # Dependências e scripts NPM
 └── 📄 global.d.ts # Tipagem para css.escape
+```
 
 ------------------------------------------------------------------------
 
@@ -124,20 +127,24 @@ npm install
 ▶️ Como Executar os Testes
 
 -    Executar todos os testes E2E
-  ```bash
-  npx playwright test
+```bash
+npx playwright test
+```
 
 -    Executar com visualização do navegador
-  ```bash
-  npx playwright test --headed
+```bash
+npx playwright test --headed
+```
 
 -    Executar apenas o conjunto de testes front-end
-  ```bash
-  npx playwright test tests/front.spec.ts
+```bash
+npx playwright test tests/front.spec.ts
+```
 
 -    Exibir relatório HTML após execução
-  ```bash
-  npx playwright show-report
+```bash
+npx playwright show-report
+```
 
 ------------------------------------------------------------------------
 
