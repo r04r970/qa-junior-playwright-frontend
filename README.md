@@ -139,7 +139,7 @@ npm install
 
 ------------------------------------------------------------------------
 
-🧩 Configurações Principais
+### 🧩 Configurações Principais
 
 🎬 Gravação de Vídeos
 
