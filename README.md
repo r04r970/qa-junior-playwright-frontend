@@ -1,7 +1,5 @@
 # 🧪 Prova Técnica Tagplus - QA (Parte 2 - Front-End)
 
-# 🧪 Prova Técnica Tagplus - QA (Parte 2 - Front-End)
-
 Este repositório contém a segunda parte da prova técnica para a vaga de **Analista de QA Júnior**, referente à automação de **testes de interface (E2E)** utilizando **Playwright** no site [SauceDemo](https://www.saucedemo.com/).
 
 ---
