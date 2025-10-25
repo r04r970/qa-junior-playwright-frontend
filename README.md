@@ -146,7 +146,7 @@ A configuração executa os testes em múltiplos navegadores e dispositivos:
 💡 O comando principal para execução é:
 
 ```bash
--   npx playwright test
+npx playwright test
 ```
 
 ✅ Boas Práticas Aplicadas
@@ -173,11 +173,11 @@ Rodrigo Barbosa
 
 📅 Prazo e Entrega
 
--   3 dias corrigidos depois da entrega.
--   Parte: 2 (Front-End - SauceDemo).
+-   3 dias corrigidos depois da entrega do teste.
+-   2 parte (Front-End - SauceDemo).
 -   Repositório: [qa-junior-playwright-frontend](https://github.com/r04r970/qa-junior-playwright-frontend.git).
 
-Execução: ```bash npx playwright test ```
+Execução: ```npx playwright test ```
 
 ⚠️ Importante
 
